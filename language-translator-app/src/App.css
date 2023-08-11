@@ -1,38 +1,48 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+
+.app-header{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ff7f00;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+}
+
+.header{
+  font-family: 'Azeret Mono', monospace;
+  font-size: 30px;
+}
+.translate-icon{
+  font-size: 0.73em;
+  padding-top: 15px;
+}
+.footer{
+  background-color: #ff7f00;
+  padding: 10px;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+.app-body{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+Form{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.language-select{
+  height: 40px !important;
+  margin-bottom: 15px;
+  outline: none !important;
 }
